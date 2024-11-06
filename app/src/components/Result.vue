@@ -1,5 +1,5 @@
 <script setup>
-defineProps( {
+defineProps({
   label: {
     type: String,
     required: true,
@@ -8,7 +8,7 @@ defineProps( {
     type: String,
     required: false,
   },
-} )
+})
 </script>
 
 <template>
@@ -38,7 +38,6 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-
   .msgs h1,
   .msgs h3 {
     text-align: left;
@@ -55,6 +54,5 @@ h3 {
       flex-wrap: wrap;
     }
   }
-
 }
 </style>

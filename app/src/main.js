@@ -11,9 +11,9 @@ import * as directives from 'vuetify/directives'
 // components
 import App from './App.vue'
 
-const vuetify = createVuetify( {
-    components,
-    directives,
-} )
+const vuetify = createVuetify({
+  components,
+  directives,
+})
 
-createApp( App ).use( vuetify ).mount( '#app' )
+createApp(App).use(vuetify).mount('#app')

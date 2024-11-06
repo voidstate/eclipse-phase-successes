@@ -79,6 +79,5 @@ h3 {
   .item:first-of-type:before {
     display: none;
   }
-
 }
 </style>

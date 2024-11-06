@@ -6,27 +6,31 @@ import Controls from './components/Controls.vue'
 <template>
   <header>
     <div class="logo">
-      <img alt="Eclipse Phase Successes" class="logo" src="./assets/logo_white_sm.webp" height="100" />
+      <img
+        alt="Eclipse Phase Successes"
+        class="logo"
+        src="./assets/logo_white_sm.webp"
+        height="100"
+      />
     </div>
   </header>
 
   <main id="interface">
-
     <section id="result">
       <div class="wrapper">
-        <Result label="Click the button or drag the sliders to calculate successes" :result="resultMessage" />
+        <Result
+          label="Click the button or drag the sliders to calculate successes"
+          :result="resultMessage"
+        />
       </div>
     </section>
 
     <section id="controls">
       <Controls @result-message="updateResult" />
     </section>
-
   </main>
 
-  <footer>
-    Eclipse Phase dice roller by <a href="mailto:rpg@voidstate.com">voidstate</a>
-  </footer>
+  <footer>Eclipse Phase dice roller by <a href="mailto:rpg@voidstate.com">voidstate</a></footer>
 </template>
 
 <style scoped>
@@ -49,17 +53,15 @@ footer {
 
 <script>
 export default {
-  data()
-  {
+  data() {
     return {
       resultMessage: '',
     }
   },
   methods: {
-    updateResult: function ( value )
-    {
+    updateResult: function (value) {
       this.resultMessage = value
-    }
-  }
+    },
+  },
 }
 </script>
