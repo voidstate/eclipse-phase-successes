@@ -1,3 +1,4 @@
+<div id="readme-top"></a>
 # Eclipse Phase Successes
 
 A simple web app to calculate successes or failures for dice rolls when playing the Eclipse Phase 2 role-playing game.
