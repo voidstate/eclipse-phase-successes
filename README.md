@@ -30,7 +30,7 @@ Don't forget to give the project a star! Thanks again!
 <a href="https://github.com/voidstate/eclipse-phase-successes/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=voidstate/eclipse-phase-successes" alt="contrib.rocks image" />
 </a>
-
+ 
 <!-- LICENSE -->
 ## License
 

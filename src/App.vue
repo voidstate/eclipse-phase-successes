@@ -22,7 +22,7 @@ import Controls from './components/Controls.vue'
     </section>
   </main>
 
-  <footer>Eclipse Phase dice roller by <a href="mailto:rpg@voidstate.com">voidstate</a> | <a href=""></a></footer>
+  <footer>Eclipse Phase dice roller by <a href="mailto:rpg@voidstate.com">voidstate</a> | <a href="https://github.com/voidstate/eclipse-phase-successes">Github</a> | <a href="https://eclipsephase.com/">EclipsePhase.com</a></footer>
 </template>
 
 <style scoped>
